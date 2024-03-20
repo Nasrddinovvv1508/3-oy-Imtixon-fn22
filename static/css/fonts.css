@@ -1,0 +1,17 @@
+/* abeezee-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2');
+}
+
+/* Clash Display */
+@font-face {
+    font-display: swap;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ClashDisplay-Regular.woff2') format('woff2');
+}
