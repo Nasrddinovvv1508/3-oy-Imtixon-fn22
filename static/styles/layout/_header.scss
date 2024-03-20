@@ -1,0 +1,29 @@
+header {
+    nav {
+        padding: 0px 28px;
+
+        form {
+            label {
+                cursor: pointer;
+            }
+        }
+
+        .shopping:hover svg{
+            transition: all 0.4s;
+            rect {
+                fill: lightgray;
+            }
+            box-shadow: 0px 0px 10px grey;
+        }
+    }
+    .container-fluid {
+        padding: 12px 0px 20px 0px;
+        border-bottom: 2px solid rgba(0, 0, 0, 10%);
+
+        .fs-4 {
+            font-family: 'Clash Display';
+            font-size: 24px;
+            color: #22202E;
+        }
+    }
+}
