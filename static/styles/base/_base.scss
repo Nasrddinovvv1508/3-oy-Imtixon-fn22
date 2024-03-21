@@ -10,17 +10,20 @@ a {
 }
 
 .view-collection {
-    padding: 16px 32px 16px 32px;
-    border: none;
     background-color: #F9F9F9;
     cursor: pointer;
-
-    font-size: 16px;
-    transition: all 0.5s;
     color: $text-darkblue;
 }
 
 .view-collection:hover {
     background-color: $text-darkblue;
     color: #F9F9F9;
+}
+
+.btn {
+    border: none;
+    border-radius: 0px;
+    padding: 16px 32px 16px 32px;
+    transition: all 0.5s;
+    font-size: 16px;
 }

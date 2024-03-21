@@ -41,9 +41,10 @@ main {
         .product_cards {
             margin-bottom: 48px;
         }
+
         .product_card {
             cursor: pointer;
-            
+
             p {
                 font-family: 'Clash Display';
                 font-size: 20px;
@@ -55,6 +56,40 @@ main {
 
             span {
                 font-size: 18px;
+                color: $text-darkblue;
+            }
+        }
+    }
+
+    .features {
+        margin-bottom: 60px;
+
+        .features-part {
+            background-color: $text-darkblue;
+            padding: 64px 75px 54px 64px;
+
+            h2 {
+                font-family: 'Clash Display';
+                font-size: 32px;
+                color: $text-white;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.3px;
+                color: $text-white;
+                margin-top: 12px;
+                margin-bottom: 205px;
+            }
+
+            .features-btn {
+                background-color: #F9F9F926;
+                color: $text-white;
+            }
+
+            .features-btn:hover {
+                background-color: $text-white;
                 color: $text-darkblue;
             }
         }

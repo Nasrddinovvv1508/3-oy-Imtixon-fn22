@@ -67,18 +67,22 @@ a {
 }
 
 .view-collection {
-  padding: 16px 32px 16px 32px;
-  border: none;
   background-color: #F9F9F9;
   cursor: pointer;
-  font-size: 16px;
-  transition: all 0.5s;
   color: #2A254B;
 }
 
 .view-collection:hover {
   background-color: #2A254B;
   color: #F9F9F9;
+}
+
+.btn {
+  border: none;
+  border-radius: 0px;
+  padding: 16px 32px 16px 32px;
+  transition: all 0.5s;
+  font-size: 16px;
 }
 
 .special-container {
@@ -143,6 +147,40 @@ main .product_section .product_card p {
 
 main .product_section .product_card span {
   font-size: 18px;
+  color: #2A254B;
+}
+
+main .features {
+  margin-bottom: 60px;
+}
+
+main .features .features-part {
+  background-color: #2A254B;
+  padding: 64px 75px 54px 64px;
+}
+
+main .features .features-part h2 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  color: #fff;
+}
+
+main .features .features-part p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 205px;
+}
+
+main .features .features-part .features-btn {
+  background-color: rgba(249, 249, 249, 0.1490196078);
+  color: #fff;
+}
+
+main .features .features-part .features-btn:hover {
+  background-color: #fff;
   color: #2A254B;
 }
 
