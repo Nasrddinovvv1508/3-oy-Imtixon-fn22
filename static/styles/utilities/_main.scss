@@ -1,0 +1,62 @@
+@import "../abstract";
+
+main {
+    .quality-section {
+        margin-bottom: 82px;
+
+        &>p {
+            font-family: 'Clash Display';
+            font-size: 24px;
+            text-align: center;
+            color: $text-darkblue;
+            margin-bottom: 36px;
+
+        }
+
+        .quality-card {
+            padding: 48px;
+            background-color: #F9F9F9;
+            cursor: pointer;
+
+            h4 {
+                font-family: 'Clash Display';
+                font-size: 20px;
+                color: $text-darkblue;
+                margin: 12px 0px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: $text-darkblue;
+            }
+        }
+    }
+
+    .product_section {
+        padding-top: 28px;
+        padding-bottom: 40px;
+        margin-bottom: 60px;
+
+        .product_cards {
+            margin-bottom: 48px;
+        }
+        .product_card {
+            cursor: pointer;
+            
+            p {
+                font-family: 'Clash Display';
+                font-size: 20px;
+                line-height: 28px;
+                color: $text-darkblue;
+                margin-top: 24px;
+                margin-bottom: 8px;
+            }
+
+            span {
+                font-size: 18px;
+                color: $text-darkblue;
+            }
+        }
+    }
+}

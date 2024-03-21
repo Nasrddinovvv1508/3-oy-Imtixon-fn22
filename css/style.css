@@ -2,88 +2,19 @@
    v5.0.2 | 20191019
    License: none (public domain)
 */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -93,18 +24,8 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
   display: block;
 }
 
@@ -117,21 +38,16 @@ body {
   line-height: 1;
 }
 
-menu,
-ol,
-ul {
+menu, ol, ul {
   list-style: none;
 }
 
-blockquote,
-q {
+blockquote, q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before, blockquote:after,
+q:before, q:after {
   content: "";
   content: none;
 }
@@ -169,6 +85,65 @@ a {
   max-width: 1277px;
   width: 100%;
   margin: 0 auto;
+}
+
+main .quality-section {
+  margin-bottom: 82px;
+}
+
+main .quality-section > p {
+  font-family: "Clash Display";
+  font-size: 24px;
+  text-align: center;
+  color: #2A254B;
+  margin-bottom: 36px;
+}
+
+main .quality-section .quality-card {
+  padding: 48px;
+  background-color: #F9F9F9;
+  cursor: pointer;
+}
+
+main .quality-section .quality-card h4 {
+  font-family: "Clash Display";
+  font-size: 20px;
+  color: #2A254B;
+  margin: 12px 0px;
+}
+
+main .quality-section .quality-card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #2A254B;
+}
+
+main .product_section {
+  padding-top: 28px;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+main .product_section .product_cards {
+  margin-bottom: 48px;
+}
+
+main .product_section .product_card {
+  cursor: pointer;
+}
+
+main .product_section .product_card p {
+  font-family: "Clash Display";
+  font-size: 20px;
+  line-height: 28px;
+  color: #2A254B;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+main .product_section .product_card span {
+  font-size: 18px;
+  color: #2A254B;
 }
 
 header nav {
@@ -245,6 +220,4 @@ header .hero-bg .float-end p {
   color: #5B5676;
   margin-top: 20px;
   margin-bottom: 157px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
