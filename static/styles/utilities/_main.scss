@@ -94,4 +94,67 @@ main {
             }
         }
     }
+
+    .form_wrapper {
+        background-image: url(../static/Image/form-bg-image.webp);
+        height: 444px;
+        background-size: cover;
+    }
+
+    .login_section {
+        text-align: center;
+        padding-top: 97px;
+        padding-bottom: 86px;
+
+        h2 {
+            font-family: 'Clash Display';
+            font-size: 35px;
+            line-height: 44.8px;
+            color: $text-white;
+        }
+
+        p {
+            width: 470px;
+            font-size: 18px;
+            line-height: 27px;
+            color: $text-white;
+            margin-top: 12px;
+            margin-bottom: 30px;
+        }
+
+        span {
+            font-size: 16px;
+            color: $text-white;
+        }
+
+        form {
+            margin-top: 40px;
+
+            input {
+                width: 354px;
+                padding: 17px 32px;
+                border: none;
+            }
+
+            input:focus {
+                outline: none;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+            input::placeholder {
+                font-size: 16px;
+                opacity: 20%;
+            }
+
+            .btn-sign {
+                background-color: $text-darkblue;
+                font-size: 16px;
+                color: $text-white;
+            }
+
+            .btn-sign:hover {
+                background-color: #3f3770;
+            }
+        }
+    }
 }

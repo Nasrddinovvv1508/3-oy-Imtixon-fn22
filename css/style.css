@@ -184,6 +184,74 @@ main .features .features-part .features-btn:hover {
   color: #2A254B;
 }
 
+main .form_wrapper {
+  background-image: url(../static/Image/form-bg-image.webp);
+  height: 444px;
+  background-size: cover;
+}
+
+main .login_section {
+  text-align: center;
+  padding-top: 97px;
+  padding-bottom: 86px;
+}
+
+main .login_section h2 {
+  font-family: "Clash Display";
+  font-size: 35px;
+  line-height: 44.8px;
+  color: #fff;
+}
+
+main .login_section p {
+  width: 470px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+main .login_section span {
+  font-size: 16px;
+  color: #fff;
+}
+
+main .login_section form {
+  margin-top: 40px;
+}
+
+main .login_section form input {
+  width: 354px;
+  padding: 17px 32px;
+  border: none;
+}
+
+main .login_section form input:focus {
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+main .login_section form input::-moz-placeholder {
+  font-size: 16px;
+  opacity: 20%;
+}
+
+main .login_section form input::placeholder {
+  font-size: 16px;
+  opacity: 20%;
+}
+
+main .login_section form .btn-sign {
+  background-color: #2A254B;
+  font-size: 16px;
+  color: #fff;
+}
+
+main .login_section form .btn-sign:hover {
+  background-color: #3f3770;
+}
+
 header nav {
   padding: 0px 28px;
 }
@@ -196,13 +264,12 @@ header nav form label {
   cursor: pointer;
 }
 
-header nav .shopping:hover svg {
-  transition: all 0.4s;
-  box-shadow: 0px 0px 10px grey;
+header nav .shopping svg {
+  transition: all 0.3s;
 }
 
-header nav .shopping:hover svg rect {
-  fill: lightgray;
+header nav .shopping:hover svg {
+  transform: scale(1.5);
 }
 
 header .container-fluid {
@@ -232,7 +299,7 @@ header ul li a:hover {
 }
 
 header .hero-bg {
-  background-image: url(../static/Image/header-bg-img.jpg);
+  background-image: url(../static/Image/header-bg-img.webp);
   height: 704px;
   background-size: cover;
   margin-bottom: 80px;
@@ -258,4 +325,106 @@ header .hero-bg .float-end p {
   color: #5B5676;
   margin-top: 20px;
   margin-bottom: 157px;
+}
+
+footer {
+  background-color: #2A254B;
+  padding-top: 58px;
+  padding-bottom: 25px;
+}
+
+footer .basic-footer {
+  padding-bottom: 48px;
+  border-bottom: 2px solid rgba(78, 77, 147, 0.7);
+}
+
+footer .basic-footer .ul1 {
+  margin-right: 106px;
+}
+
+footer .basic-footer .ul2 {
+  margin-right: 133px;
+}
+
+footer .basic-footer .ul3 {
+  margin-right: 109px;
+}
+
+footer .basic-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer .basic-footer ul p {
+  font-family: "Clash Display";
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .basic-footer ul a {
+  font-size: 14px;
+  color: #fff;
+  opacity: 85%;
+}
+
+footer .basic-footer ul a:hover {
+  opacity: 40%;
+}
+
+footer .basic-footer form p {
+  font-family: "Clash Display";
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+footer .basic-footer form input {
+  width: 509px;
+  border: none;
+  padding: 17px 32px;
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  color: #fff;
+}
+
+footer .basic-footer form input::-moz-placeholder {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .basic-footer form input::placeholder {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer .basic-footer form input:focus {
+  outline: none;
+}
+
+footer .basic-footer form .footer-btn {
+  background-color: #fff;
+  color: #2A254B;
+}
+
+footer .basic-footer form .footer-btn:hover {
+  background-color: #1d1934;
+  color: #fff;
+}
+
+footer .down-footer {
+  padding-top: 22px;
+  justify-content: space-between;
+}
+
+footer .down-footer p {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .down-footer .links a img {
+  transition: all 0.3s;
+}
+
+footer .down-footer .links a:hover img {
+  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */

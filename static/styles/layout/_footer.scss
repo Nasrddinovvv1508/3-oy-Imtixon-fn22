@@ -1,0 +1,101 @@
+@import "../abstract";
+
+footer {
+    background-color: $text-darkblue;
+    padding-top: 58px;
+    padding-bottom: 25px;
+
+    .basic-footer {
+        padding-bottom: 48px;
+        border-bottom: 2px solid rgba(78, 77, 147, 0.7);
+
+        .ul1 {
+            margin-right: 106px;
+        }
+
+        .ul2 {
+            margin-right: 133px;
+        }
+
+        .ul3 {
+            margin-right: 109px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            p {
+                font-family: 'Clash Display';
+                font-size: 16px;
+                color: $text-white;
+            }
+
+            a {
+                font-size: 14px;
+                color: $text-white;
+                opacity: 85%;
+            }
+
+            a:hover {
+                opacity: 40%;
+            }
+        }
+
+        form {
+            p {
+                font-family: 'Clash Display';
+                font-size: 16px;
+                color: $text-white;
+                margin-bottom: 16px;
+            }
+
+            input {
+                width: 509px;
+                border: none;
+                padding: 17px 32px;
+                background-color: #FFFFFF26;
+                color: $text-white;
+            }
+
+            input::placeholder {
+                font-size: 16px;
+                color: $text-white;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            .footer-btn {
+                background-color: $text-white;
+                color: $text-darkblue;
+            }
+
+            .footer-btn:hover {
+                background-color: #1d1934;
+                color: $text-white;
+            }
+        }
+    }
+
+    .down-footer {
+        padding-top: 22px;
+        justify-content: space-between;
+
+        p {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .links {
+            a img {
+                transition: all 0.3s;
+            }
+            a:hover img {
+                transform: scale(1.5);
+            }
+        }
+    }
+}
