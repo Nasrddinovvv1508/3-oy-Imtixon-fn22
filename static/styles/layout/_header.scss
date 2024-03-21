@@ -2,20 +2,27 @@ header {
     nav {
         padding: 0px 28px;
 
+        .avion:hover {
+            color: #726E8D;
+        }
+
         form {
             label {
                 cursor: pointer;
             }
         }
 
-        .shopping:hover svg{
+        .shopping:hover svg {
             transition: all 0.4s;
+
             rect {
                 fill: lightgray;
             }
+
             box-shadow: 0px 0px 10px grey;
         }
     }
+
     .container-fluid {
         padding: 12px 0px 20px 0px;
         border-bottom: 2px solid rgba(0, 0, 0, 10%);
@@ -24,6 +31,52 @@ header {
             font-family: 'Clash Display';
             font-size: 24px;
             color: #22202E;
+        }
+    }
+
+    ul {
+        margin: 12px 0px 20px 0px;
+        gap: 44px;
+
+        li {
+            a {
+                color: #726E8D;
+                font-size: 16px;
+                line-height: 21.6px;
+            }
+
+            a:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .hero-bg {
+        background-image: url(../static/Image/header-bg-img.jpg);
+        height: 704px;
+        background-size: cover;
+        margin-bottom: 80px;
+
+        .float-end {
+            background-color: #fff;
+            padding: 48px 61px 46px 56px;
+            margin-top: 130px;
+            margin-bottom: 130px;
+
+            h2 {
+                font-family: 'Clash Display';
+                font-size: 32px;
+                line-height: 44.8px;
+                color: #22202E;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 27px;
+                color: #5B5676;
+                margin-top: 20px;
+                margin-bottom: 157px;
+            }
         }
     }
 }

@@ -2,19 +2,88 @@
    v5.0.2 | 20191019
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-main, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +93,18 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, main, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -38,16 +117,21 @@ body {
   line-height: 1;
 }
 
-menu, ol, ul {
+menu,
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -66,8 +150,33 @@ a {
   text-decoration: none;
 }
 
+.view-collection {
+  padding: 16px 32px 16px 32px;
+  border: none;
+  background-color: #F9F9F9;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.5s;
+  color: #2A254B;
+}
+
+.view-collection:hover {
+  background-color: #2A254B;
+  color: #F9F9F9;
+}
+
+.special-container {
+  max-width: 1277px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 header nav {
   padding: 0px 28px;
+}
+
+header nav .avion:hover {
+  color: #726E8D;
 }
 
 header nav form label {
@@ -94,8 +203,48 @@ header .container-fluid .fs-4 {
   color: #22202E;
 }
 
-.special-container {
-  max-width: 1277px;
-  width: 100%;
-  margin: 0 auto;
-}/*# sourceMappingURL=style.css.map */
+header ul {
+  margin: 12px 0px 20px 0px;
+  gap: 44px;
+}
+
+header ul li a {
+  color: #726E8D;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+header ul li a:hover {
+  color: #000;
+}
+
+header .hero-bg {
+  background-image: url(../static/Image/header-bg-img.jpg);
+  height: 704px;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+header .hero-bg .float-end {
+  background-color: #fff;
+  padding: 48px 61px 46px 56px;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+header .hero-bg .float-end h2 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  line-height: 44.8px;
+  color: #22202E;
+}
+
+header .hero-bg .float-end p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #5B5676;
+  margin-top: 20px;
+  margin-bottom: 157px;
+}
+
+/*# sourceMappingURL=style.css.map */
