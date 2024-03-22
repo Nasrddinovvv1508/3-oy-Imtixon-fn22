@@ -275,7 +275,7 @@
         .quality-section {
             .quality-cards {
                 gap: 10px;
-                
+
                 .quality-card {
                     padding: 30px;
 
@@ -298,20 +298,20 @@
     footer {
         .basic-footer {
             .ul1 {
-                margin-right: 50px!important;
+                margin-right: 50px !important;
             }
-            
+
             .ul2 {
-                margin-right: 45px!important;
+                margin-right: 45px !important;
             }
 
             .ul3 {
-                margin-right: 40px!important;
+                margin-right: 40px !important;
             }
 
             ul {
                 display: flex;
-                gap: 8px!important;
+                gap: 8px !important;
 
                 li {
                     a {
@@ -362,6 +362,7 @@
         .features {
             .features-part {
                 padding: 37px 50px 54px 52px;
+
                 p {
                     margin-bottom: 70px;
                     line-height: 21.3px;
@@ -387,7 +388,7 @@
             form {
                 .inner-form {
                     input {
-                        max-width: 216px!important;
+                        max-width: 216px !important;
                         padding: 10px 11px;
                     }
 
@@ -395,6 +396,287 @@
                         padding: 12px 7px;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 685px) {
+    .special-container {
+        max-width: 628px;
+    }
+
+    header {
+        .navbar {
+            .container-fluid {
+                margin-bottom: 47px;
+
+                .header-form {
+                    display: none !important;
+                }
+
+                .another-form {
+                    display: flex !important;
+                    float: right;
+                }
+
+                .bars {
+                    display: block;
+                    cursor: pointer;
+                }
+
+                .icon-links {
+                    display: none !important;
+                }
+            }
+        }
+
+        &>ul.d-flex {
+            display: none !important;
+        }
+
+
+        .hero-bg {
+            .hero {
+                .luxury {
+                    width: 75% !important;
+                }
+            }
+        }
+    }
+
+    main {
+        .quality-section {
+            .quality-cards {
+                .quality-card {
+                    // width: 48%!important;
+                }
+            }
+        }
+
+        .features {
+            .features-part {
+                width: 98%;
+            }
+
+            img {
+                width: 98%;
+            }
+        }
+    }
+
+
+    footer {
+        .basic-footer {
+            form {
+                margin-top: 40px;
+
+                .inner-form {
+                    input[type='text'] {
+                        min-width: 400px !important;
+                    }
+
+                    button {
+                        padding: 12px 17px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 625px) {
+    .special-container {
+        max-width: 569px;
+    }
+
+    main {
+        .quality-section {
+            .quality-cards {
+                display: flex !important;
+                justify-content: center !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .special-container {
+        max-width: 418px;
+    }
+
+    main {
+        .form_wrapper {
+            .login_section {
+                h2 {
+                    font-size: 30px;
+                    line-height: 32.8px;
+                }
+
+                p {
+                    width: 300px;
+                    line-height: 20px;
+                }
+
+                .spans {
+                    flex-direction: column;
+                    gap: 15px !important;
+                    justify-content: start !important;
+                    text-align: left;
+                }
+
+                form {
+                    input {
+                        width: 290px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .basic-footer {
+            form {
+                .inner-form {
+                    input[type=text] {
+                        min-width: 286px !important;
+                    }
+                }
+            }
+        }
+
+        .down-footer {
+            .links {
+                gap: 0.5rem !important;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 409px) {
+    .special-container {
+        max-width: 353px;
+    }
+
+    .view-collection {
+        width: 98%;
+    }
+
+    header {
+        .navbar {
+            .container-fluid {
+                margin-bottom: 0px;
+            }
+        }
+
+        .hero-bg {
+            background-image: none;
+            height: 250px;
+
+            .hero {
+                .luxury {
+                    width: 98% !important;
+                    margin-top: 41px !important;
+                    padding: 0px;
+                    margin-bottom: 32px;
+
+                    button {
+                        width: 98%;
+                    }
+                }
+            }
+        }
+
+        .header-bg {
+            background-image: url(../static/Image/header-main-image.webp);
+            height: 304px;
+            margin-bottom: 48px;
+        }
+    }
+
+    main {
+        .quality-section {
+            p {
+                text-align: left;
+            }
+
+            .quality-cards {
+                .quality-card {
+                    justify-content: start!important;
+                }
+            }
+        }
+
+        .product_section {
+            .product_cards {
+                .product_card {
+                    width: 48%;
+                }
+            }
+        }
+
+        .features {
+            .features-part {
+                padding: 36px 32px 30px 32px;
+
+                .features-btn {
+                    width: 98%;
+                }
+            }
+        }
+
+        .login_section {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+            h2, p {
+                text-align: left;
+            }
+
+            p {
+                margin-top: 12px;
+            }
+
+            form {
+                input[type=text] {
+                    padding: 14px 10px;
+                    width: 220px;
+                }
+
+                button {
+                    padding: 14px 20px;
+                }
+            }
+        }
+    }
+
+
+    footer {
+        .basic-footer {
+            .ul3 {
+                margin-top: 40px;
+            }
+
+            form {
+                .inner-form {
+                    input[type=text] {
+                        min-width: 224px!important;
+                    }
+                }
+            }
+        }
+
+        .down-footer {
+            p {
+                margin: 0 auto;
+            }
+            .links {
+                display: none!important;
             }
         }
     }

@@ -17,16 +17,30 @@
   <header>
     <nav class="navbar navbar-light">
       <div class="container-fluid d-flex justify-content-beetwen align-items-center">
-        <form class="d-flex align-items-center gap-1">
+        <form class="header-form d-flex align-items-center gap-1">
           <label for="search">
-            <img class="pe-auto" width="20" src="./static/SVG/Search.svg" alt="search icon">
+            <img width="20" src="./static/SVG/Search.svg" alt="search icon">
           </label>
           <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         </form>
 
         <a class="avion fs-4" href="#">Avion</a>
 
-        <div class="d-flex gap-3">
+        <div class="d-flex align-items-center gap-2">
+          <form class="another-form d-flex align-items-center gap-1">
+            <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <label for="search">
+              <img width="20" src="./static/SVG/Search.svg" alt="search icon">
+            </label>
+          </form>
+          <svg class="bars" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+          </svg>
+        </div>
+
+        <div class="icon-links d-flex gap-3">
           <a class="shopping" href="#">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="16" height="16" fill="white" style="mix-blend-mode:multiply" />
@@ -80,6 +94,9 @@
         </div>
       </div>
     </div>
+
+    <div class="header-bg">
+    </div>
   </header>
 
   <main>
@@ -88,8 +105,8 @@
         What makes our brand different
       </p>
 
-      <div class="quality-cards d-flex gap-3">
-        <div class="quality-card w-25">
+      <div class="quality-cards d-flex flex-wrap justify-content-center gap-3">
+        <div class="quality-card">
           <img src="./static/SVG/Delivery.svg" alt="Delivery">
           <h4>Next day as standard</h4>
           <p>
@@ -97,7 +114,7 @@
           </p>
         </div>
 
-        <div class="quality-card w-25">
+        <div class="quality-card">
           <img src="./static/SVG/Checkmark--outline.svg" alt="Checkmark outline">
           <h4>Made by true artisans</h4>
           <p>
@@ -105,7 +122,7 @@
           </p>
         </div>
 
-        <div class="quality-card w-25">
+        <div class="quality-card">
           <img src="./static/SVG/Purchase.svg" alt="Purchase">
           <h4>Unbeatable prices</h4>
           <p>
@@ -113,7 +130,7 @@
           </p>
         </div>
 
-        <div class="quality-card w-25">
+        <div class="quality-card">
           <img src="./static/SVG/Sprout.svg" alt="Sprout">
           <h4>Recycled packaging</h4>
           <p>
@@ -124,26 +141,26 @@
     </section>
 
     <section class="special-container product_section">
-      <div class="w-100 product_cards d-flex">
-        <div class="product_card w-25">
+      <div class="w-100 product_cards d-flex flex-wrap justify-content-center">
+        <div class="product_card">
           <img src="./static/Image/chair.webp" alt="chair">
           <p>The Dandy chair</p>
           <span>£250</span>
         </div>
 
-        <div class="product_card w-25">
+        <div class="product_card ">
           <img src="./static/Image/product-img2.webp" alt="product img">
           <p>Rustic Vase Set</p>
           <span>£155</span>
         </div>
 
-        <div class="product_card w-25">
+        <div class="product_card ">
           <img src="./static/Image/product-img3.webp" alt="product img">
           <p>The Silky Vase</p>
           <span>£125</span>
         </div>
 
-        <div class="product_card w-25">
+        <div class="product_card ">
           <img src="./static/Image/product-img4.webp" alt="product img">
           <p>The Lucy Lamp</p>
           <span>£399</span>
@@ -154,15 +171,15 @@
       </center>
     </section>
 
-    <section class="special-container features d-flex gap-3">
-      <div class="features-part w-50">
+    <section class="special-container features d-flex justify-content-center flex-wrap gap-3">
+      <div class="features-part">
         <h2>It started with a small idea</h2>
         <p>
           A global brand with local beginnings, our story begain in a small studio in South London in early 2014
         </p>
         <button class="btn features-btn">View collection</button>
       </div>
-      <img class="w-50" src="./static/Image/features-img.webp" alt="features img">
+      <img src="./static/Image/features-img.webp" alt="features img">
     </section>
 
     <div class="form_wrapper">
@@ -173,7 +190,7 @@
             Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more
           </p>
         </center>
-        <div class="d-flex justify-content-center align-items-center gap-5">
+        <div class="spans d-flex justify-content-center gap-5">
           <span class="d-flex gap-2">
             <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
               <path fill="white"
@@ -211,7 +228,7 @@
   </main>
 
   <footer>
-    <div class="special-container basic-footer d-flex">
+    <div class="special-container basic-footer d-flex flex-wrap">
       <ul class="ul1">
         <p>Menu</p>
         <li><a href="#">New arrivals</a></li>
@@ -239,7 +256,6 @@
         <li><a href="#">Privacy</a></li>
         <li><a href="#">Returns policy</a></li>
       </ul>
-
       <form>
         <p>Join our mailing list</p>
         <div class="inner-form d-flex align-items-center">
